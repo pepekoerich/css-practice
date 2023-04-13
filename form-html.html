@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+            <legend>Add user</legend>
+        
+            <div class="first-name-div">
+                <label class="first-name" for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+        
+            <div>
+                <label class="last-name" for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+        
+            <div>
+                <label class="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+           
+
+        
+            <div class="div-pai">
+            
+                    <label class="date-label" for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                
+
+                <label class="status-label" for="role">Status</label>
+                <select id="role" name="user_role_name">
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+                </select>
+            </div>
+            
+            <div class="">
+                <p>Choose your favorite Web language:</p>
+                
+                <div class="div-mae">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label class="html-label" for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label class="css-label" for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label class="js-label" for="javascript">JavaScript</label>
+            </div>
+            </div>
+
+            <div>
+                <label class="comments-label" for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+          
+            <div class="checkbox-div">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label for="signup">Sign up <br> for news</label><br>
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label for="terms"> Agree to <br> terms</label>
+            </div>
+        
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+fieldset {
+    height: 500px;
+    width: 450px;
+}
+
+legend{
+    border-style: groove;
+    margin-left: 50px;
+}
+
+.first-name{
+    display: block;
+    text-align: center;
+
+}
+
+#firstName{
+   display: block;
+   margin: 0 auto;
+}
+
+.last-name{
+    display: block;
+    text-align: center;
+}
+
+#lastName{
+    display: block;
+    margin: 0 auto;
+}
+
+.email-label{
+    display: block;
+    text-align: center;
+}
+
+#email{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.date-label{
+ display: block;
+ text-align: center;
+}
+
+#date{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+#role{
+    display: block;
+    margin: 0 auto;
+}
+
+.status-label{
+ 
+   display: block;
+   text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.html-label{
+ 
+}
+
+.css-label{
+    
+}
+
+.div-mae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-label{
+    display: block;
+    text-align: center;
+    margin-right: 90px;
+    padding-top: 10px;
+}
+
+#comments{
+    display: block;
+    margin: 0 auto;
+}
+
+.checkbox-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
